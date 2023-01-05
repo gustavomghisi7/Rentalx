@@ -30,7 +30,7 @@
               "ts": "never"
             }
         ],
-        "prettier/prettier": 0     
+        "prettier/prettier": 0    
     },
     "settings": {
         "import/resolver": {

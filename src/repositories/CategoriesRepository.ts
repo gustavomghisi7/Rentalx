@@ -1,4 +1,4 @@
-import { Category } from "../model/Category";
+import Category from "../model/Category";
 
 interface ICreateCategoryDTO {
     name: string;
@@ -23,6 +23,15 @@ class CategoriesRepository {
     
         this.categories.push(category);
     }
+
+    list(): Category[] {
+        return this.categories;
+    }
+
+    findByName(name: string): Category {
+        const category = this.categories.find((category) => category.name === name);
+        return category;
+    }
 }
 
-export { CategoriesRepository };
+export default CategoriesRepository;
