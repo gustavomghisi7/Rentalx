@@ -25,4 +25,4 @@ categoriesRoutes.get("/", (request, response) => {
     return response.json(all);
 })
 
-export default categoriesRoutes  ;
+export default categoriesRoutes;
