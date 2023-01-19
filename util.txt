@@ -1,0 +1,7 @@
+links que ajudaram ajustar o Docker
+
+https://stackoverflow.com/questions/40459280/docker-cannot-start-on-windows
+
+https://github.com/docker/for-win/issues/13075
+
+https://stackoverflow.com/questions/48066994/docker-no-matching-manifest-for-windows-amd64-in-the-manifest-list-entries
